@@ -1,0 +1,10 @@
+{
+  "presets": ["next/babel"],
+  "plugins": ["istanbul"],
+  "ignore": [
+    "src/generated/graphql.ts"
+  ],
+  "exclude": [
+    "src/generated/graphql.ts"
+  ]
+}
