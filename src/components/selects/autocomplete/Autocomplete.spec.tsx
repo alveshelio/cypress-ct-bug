@@ -1,5 +1,5 @@
 import { Button, Stack } from '@chakra-ui/react'
-import { AutoComplete } from '@components'
+import { AutoComplete } from 'src/components/selects/autocomplete/AutoComplete'
 import { Option } from '@models'
 import { UseComboboxStateChange } from 'downshift'
 import { ChangeEvent, ReactElement, useState } from 'react'

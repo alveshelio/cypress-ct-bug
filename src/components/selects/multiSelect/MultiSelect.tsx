@@ -11,14 +11,15 @@ import {
   StackProps,
   TagProps,
 } from '@chakra-ui/react'
-import { ArrowDown } from '@components'
-import { Option } from '@models'
+import { ArrowDown } from 'src/components/icons/ArrowDown'
+
 import { useCombobox, useMultipleSelection, UseMultipleSelectionProps } from 'downshift'
 import { matchSorter } from 'match-sorter'
 import { forwardRef, ReactElement, useEffect, useRef, useState } from 'react'
 import { OptionList } from 'src/components/selects/multiSelect/OptionList'
 import { Tags } from 'src/components/selects/Tags'
 import { filterDuplicatesFromArray } from '../helpers'
+import { Option } from '@models'
 
 const defaultOptionsFilter = (items: Option[], inputValue: string): Option[] =>
   matchSorter(items, inputValue, { keys: ['value', 'label'] })

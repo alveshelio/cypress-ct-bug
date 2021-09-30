@@ -10,7 +10,7 @@ import {
   Stack,
   StackProps,
 } from '@chakra-ui/react'
-import { ArrowDown } from '@components'
+import { ArrowDown } from 'src/components/icons/ArrowDown'
 import { Option } from '@models'
 import {
   useCombobox,
