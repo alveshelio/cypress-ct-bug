@@ -56,7 +56,7 @@
   "devDependencies": {
     "@cypress/code-coverage": "^3.9.10",
     "@cypress/react": "^5.9.4",
-    "@cypress/webpack-dev-server": "^1.5.0",
+    "@cypress/webpack-dev-server": "^1.8.4",
     "@graphql-codegen/cli": "2.2.0",
     "@graphql-codegen/introspection": "2.1.0",
     "@graphql-codegen/near-operation-file-preset": "^2.1.3",
